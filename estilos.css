@@ -1,0 +1,102 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font : lighter 15px sans-serif
+}
+
+header,section,footer,aside,nav,article,hgroup {
+    
+    display: block;
+}
+
+body{
+    text-align:center;
+}
+
+.agrupar {
+    width: 960PX;
+    background:lightblue;
+    border: 1px solid;
+    margin: 15px auto;
+}
+
+.cabecera {
+    background: lightgray;
+    border:2px solid #999999;
+    padding: 20px;
+    text-align: left;
+    
+}
+.menu {                          /*ACA DEFINO POR CLASE*/
+    background: #2873734f;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.menu li {                      /* para todos los li dentro de la clase menu   */
+    list-style: none;
+    text-align:left;
+    padding: 2px;
+    font: lighter 20px Verdana;
+    display: inline-block;
+}
+
+.seccion{
+    margin: 20px;
+    width: 600PX;
+    float: left;
+    background: lightblue;
+}
+
+article{
+    background: lightgray;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+
+time{
+    color:rgb(122, 116, 122);
+}
+
+.columna{
+    margin: 20px 0;
+    width: 300PX;
+    float: left;
+    background: lightblue;
+}
+
+.columna blockquote{
+    border:solid 1px black;
+    margin-bottom: 20px;
+    background: lightgray;
+    padding: 20px;
+} 
+
+.pie{
+    clear: both ;                /*ACA REORDENA TODO LO Q ESTA ANTES DE FOOTER (ASSIDE Y SECTION*/
+    padding: 20px;
+    background: #004040;
+    color:whitesmoke;
+}
+
+img{
+    width: 100px;
+    display: block;
+    margin:20px auto;
+}
